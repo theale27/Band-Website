@@ -1,0 +1,11 @@
+@media print {
+    * { background:transparent !important; color:#000000 !important; } /* No background, Text color is black */
+    body #main a { color:#000000 !important; } /* Needed higher specificity to override */
+    a, a:visited { color:#000000 !important; text-decoration:underline !important; }
+
+    header, footer { display:none; }
+    .skeletonwitch-logo { display:none; }
+    .social-media, .twitter-feed { display:none; }
+
+
+}
