@@ -12,11 +12,11 @@
 
     <body>
         <?php include ('header.php'); ?>
-        <img class="skeletonwitch-logo" src="/assesstwo/img/Skeletonwitch_Logo.png" alt="Skeletonwitch Logo">
+        <img class="skeletonwitch-logo" src="/img/Skeletonwitch_Logo.png" alt="Skeletonwitch Logo">
         <div id="push-top"></div>
         <section id="main">
             <div class="col-1">
-                <img src="/assesstwo/img/Skeletonwitch_Band_Members.jpg" alt="Skeletonwitch Band Members"><br><br>
+                <img src="/img/Skeletonwitch_Band_Members.jpg" alt="Skeletonwitch Band Members"><br><br>
                 <p>“SKELETONWITCH has been called every name in the fucking book: death metal, black metal, thrash metal, speed metal, heavy metal, epic viking blackened thrash ‘n’ roll, and so on. It seems the only description everyone can agree on is ‘metal,’” says guitarist Scott Hedrick, “and that suits us just fine.”</p><br>
                 <p>Indeed. Like Satan himself set loose in the hallowed halls of heavy metal, these Athens, Ohio-based headbangers careen wildly through the music’s history, gleefully destroying and setting flame to every genre along the way, only stopping at the forefront of today’s metal scene to look back and watch that fucker burn — and then piss on the flames. No other band has tapped into the fire, fury, and frost of all things metal like SKELETONWITCH.</p><br>
                 <p>Their latest slab of savage, molten metal, Forever Abomination (out in October on Prosthetic Records), is a testament to their refined craft, honed through years of hard work and relentless touring. “We live and breathe this shit!” exclaims Hedrick. “We tour as much as humanly possible, and when we’re home we write. There’s technically no such thing as ‘time off’ when you’re in The ‘WITCH”.</p><br>
@@ -30,9 +30,9 @@
             </div>
             <div class="col-2">
                 <div class="social-media">
-                    <a href="http://www.facebook.com/skeletonwitch"><img src="/assesstwo/img/Logo-Red_Facebook.png" alt="Skeletonwitch Facebook"></a>
-                    <a href="http://www.instagram.com/skeletonwitch"><img src="/assesstwo/img/Logo-Red_Instagram.png" alt="Skeletonwitch Facebook"></a>
-                    <a href="http://www.twitter.com/Skeletonwitch"><img src="/assesstwo/img/Logo-Red_Twitter.png" alt="Skeletonwitch Facebook"></a>
+                    <a href="http://www.facebook.com/skeletonwitch"><img src="/img/Logo-Red_Facebook.png" alt="Skeletonwitch Facebook"></a>
+                    <a href="http://www.instagram.com/skeletonwitch"><img src="/img/Logo-Red_Instagram.png" alt="Skeletonwitch Facebook"></a>
+                    <a href="http://www.twitter.com/Skeletonwitch"><img src="/img/Logo-Red_Twitter.png" alt="Skeletonwitch Facebook"></a>
                 </div><hr><br>
                 <div class="twitter-feed">
                     <h1>Twitter Feed</h1><br>

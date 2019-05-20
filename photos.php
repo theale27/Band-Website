@@ -12,15 +12,15 @@
 
 <body>
     <?php include ('header.php'); ?>
-    <img class="skeletonwitch-logo" src="/assesstwo/img/Skeletonwitch_Logo.png" alt="Skeletonwitch Logo">
+    <img class="skeletonwitch-logo" src="/img/Skeletonwitch_Logo.png" alt="Skeletonwitch Logo">
     <div id="push-top"></div>
     <section id="main">
         <div class="slideshow">
-            <img class="slides" src="/assesstwo/img/photos/skeletonwitch-01.jpg">
-            <img class="slides" src="/assesstwo/img/photos/skeletonwitch-02.jpg">
-            <img class="slides" src="/assesstwo/img/photos/skeletonwitch-03.jpg">
-            <img class="slides" src="/assesstwo/img/photos/skeletonwitch-04.jpg">
-            <img class="slides" src="/assesstwo/img/photos/skeletonwitch-05.jpg">
+            <img class="slides" src="/img/photos/skeletonwitch-01.jpg">
+            <img class="slides" src="/img/photos/skeletonwitch-02.jpg">
+            <img class="slides" src="/img/photos/skeletonwitch-03.jpg">
+            <img class="slides" src="/img/photos/skeletonwitch-04.jpg">
+            <img class="slides" src="/img/photos/skeletonwitch-05.jpg">
 
             <div class="arrows">
                 <div class="left-arrow" onclick="plusDivs(-1)">&#10094;</div>
@@ -28,11 +28,11 @@
             </div>
         </div>
         <div class="gallery">
-            <img src="/assesstwo/img/photos/skeletonwitch-small-01.jpg">
-            <img src="/assesstwo/img/photos/skeletonwitch-small-02.jpg">
-            <img src="/assesstwo/img/photos/skeletonwitch-small-03.jpg">
-            <img src="/assesstwo/img/photos/skeletonwitch-small-04.jpg">
-            <img src="/assesstwo/img/photos/skeletonwitch-small-05.jpg">
+            <img src="/img/photos/skeletonwitch-small-01.jpg">
+            <img src="/img/photos/skeletonwitch-small-02.jpg">
+            <img src="/img/photos/skeletonwitch-small-03.jpg">
+            <img src="/img/photos/skeletonwitch-small-04.jpg">
+            <img src="/img/photos/skeletonwitch-small-05.jpg">
         </div>
         <div id="modal">
             <img id="modal-content">

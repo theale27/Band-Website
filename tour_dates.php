@@ -13,7 +13,7 @@
 
 <body>
     <?php include ('header.php'); ?>
-    <img class="skeletonwitch-logo" src="/assesstwo/img/Skeletonwitch_Logo_Aussie.png" alt="Skeletonwitch Aussie Logo">
+    <img class="skeletonwitch-logo" src="/img/Skeletonwitch_Logo_Aussie.png" alt="Skeletonwitch Aussie Logo">
     <div id="push-top"></div>
     <section id="main">
         <div class="track-artist">

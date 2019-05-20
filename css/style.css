@@ -1,112 +1,353 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
-* { font-family:Open Sans; margin:0; padding:0; box-sizing:border-box; border:none; }
-body { color:#DDD; background-color:#010101; background-image:url('/assesstwo/img/Background_Serpents.jpg'); background-repeat:no-repeat; background-position:top 32px center; background-attachment:scroll; }
-a { color:#D0070D; cursor:pointer; }
-html, body { height:100%; }
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700";
+* {
+  font-family: Open Sans;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  color: #ddd;
+  background-color: #010101;
+  background-image: url("/img/Background_Serpents.jpg");
+  background-repeat: no-repeat;
+  background-position: top 32px center;
+  background-attachment: scroll;
+}
+a {
+  color: #d0070d;
+  cursor: pointer;
+}
+html,
+body {
+  height: 100%;
+}
 /* Header */
-header { width:100%; }
-.active { font-weight:bold; }
+header {
+  width: 100%;
+}
+.active {
+  font-weight: bold;
+}
 /* Footer */
-footer { width:100%; bottom:0; height:25px; position:relative; }
-
-/* Nav */
-nav, footer { background:linear-gradient(#BD0404, #360000); font-size:1em; text-align:center; color:#FFFFFF; }
-#push-top { margin-top:365px; }
-
-#nav-header { text-align:right; display:none; }
-.hamburger-icon { color:#FFFFFF; text-decoration:none; padding:5px 15px; display:inline-block; }
-nav ul li { display:inline-block; }
-nav ul ul li { display:block; }
-nav ul li:hover ul { display:block; } /* For desktops */
-nav ul li a:hover { color:#A9A9A9; }
-nav ul li a { color:#FFFFFF; display:block; text-decoration:none; padding:5px 10px; }
-nav ul ul { background:linear-gradient(#BD0404, #360000); display:none; position:absolute; width:auto; }
-nav ul ul li { border-top:1px solid #111; }
-.expand { display:block; }
-
-/* Main Content */
-#main { background-color:#111; margin:0 auto -25px; /* -footer height */ min-height:100%; width:50%; padding:25px; border-radius:5px; }
-#main a { text-decoration:none; }
-.skeletonwitch-logo { display:none; }
-.col-1 { width:67%; display:inline-block; }
-.col-1 img { max-width:100%;  }
-.post { border-bottom:1px solid #DDD; padding-bottom:15px; margin-bottom:15px; }
-.col-2 { width:33%; float:right; padding-left:15px; }
-.col-2 h1 { text-align:center; }
-.social-media { border-bottom:1px solid #DDD; white-space:nowrap; padding-bottom:10px; text-align:center; height:50px; }
-.social-media a { padding:10px; }
-.social-media img { height:100%; max-width:33%; }
-.skeletonwitch-logo { max-width:100%; }
-
-.album::after { content:""; display:table; clear:both; }
-.album:last-child { padding-bottom:25px; }
-
-/* Homepage Signup Form */
-#feedbackForm { text-align:center; padding-bottom:20px; }
-#feedbackForm div label { padding-right:10px; }
-.feedbackForm-col1 { display:none; }
-.feedbackForm-col2 { display:block; }
-.help-block { display:none; color:#D0070D; }
-.form-group input { padding:3px; margin-top:5px; }
-button { padding:5px; }
-#feedbackSubmit { margin-top:10px; }
-
-/* Email Latest News Form */
-.form-group p { font-weight:bold; padding-bottom:5px; }
-.col-1 .container { display:none; }
-.col-2 .container { display:inline; }
-
-/* Slideshow */
-.slideshow { max-width:100%; margin-bottom:5px; }
-.slides { width:100%; }
-
-.slideshow { position:relative; display:inline-block; }
-.arrows { position:absolute; width:100%; height:55%; left:0; bottom:0; font-weight:bold; }
-.arrows div { padding:3px 9px; background:#000000; border-radius:30px; height:30px; width:30px; cursor:pointer; }
-.left-arrow { float:left; margin-left:10px; }
-.right-arrow { float:right; margin-right:10px; }
-
-/* Gallery */
-.gallery { text-align:center; }
-.gallery img { max-width:24%; height:auto; padding:5px; cursor:pointer; transition:0.3s; }
-.gallery img:hover { opacity:0.7; }
-
-/* Modal (popup) */
-#modal { display:none; position:fixed; padding:100px 0; left:0; top:0; right:0; }
-#modal-content { margin:auto; display:block; max-width:90%; cursor:pointer; max-height:80vh; }
-
-/* Email Contact Form */
-#email-form { padding-top:50px; }
-.container .alert { font-size:85%; }
-
-/* Breakpoints */
-@media only screen and (max-width:1025px) { /* Landscape Tablet and below */
-    body { background-image:none; background-color:#111; }
-    .skeletonwitch-logo { display:block; }
-    #push-top { margin-top:0; }
-    #main { width:100%; margin:0; }
-    nav ul { display:block; }
+footer {
+  width: 100%;
+  bottom: 0;
+  height: 25px;
+  position: relative;
 }
 
-@media only screen and (max-width:769px) { /* Portrait Tablet + Mobile */
-    #nav-header { display:block; }
+/* Nav */
+nav,
+footer {
+  background: linear-gradient(#bd0404, #360000);
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+#push-top {
+  margin-top: 365px;
+}
 
-    .col-1 { width:90%; }
-    .col-2 { width:10%; padding:0; }
-    .social-media { white-space:normal; border-bottom:none; }
-    .social-media img { max-width:100%; }
-    .social-media a img { padding-bottom:10px; }
-    .twitter-feed { display:none; }
+#nav-header {
+  text-align: right;
+  display: none;
+}
+.hamburger-icon {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 15px;
+  display: inline-block;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul ul li {
+  display: block;
+}
+nav ul li:hover ul {
+  display: block;
+} /* For desktops */
+nav ul li a:hover {
+  color: #a9a9a9;
+}
+nav ul li a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+nav ul ul {
+  background: linear-gradient(#bd0404, #360000);
+  display: none;
+  position: absolute;
+  width: auto;
+}
+nav ul ul li {
+  border-top: 1px solid #111;
+}
+.expand {
+  display: block;
+}
 
-    .feedbackForm-col1 { display:block; }
-    .feedbackForm-col2 { display:none; }
+/* Main Content */
+#main {
+  background-color: #111;
+  margin: 0 auto -25px; /* -footer height */
+  min-height: 100%;
+  width: 50%;
+  padding: 25px;
+  border-radius: 5px;
+}
+#main a {
+  text-decoration: none;
+}
+.skeletonwitch-logo {
+  display: none;
+}
+.col-1 {
+  width: 67%;
+  display: inline-block;
+}
+.col-1 img {
+  max-width: 100%;
+}
+.post {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.col-2 {
+  width: 33%;
+  float: right;
+  padding-left: 15px;
+}
+.col-2 h1 {
+  text-align: center;
+}
+.social-media {
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  text-align: center;
+  height: 50px;
+}
+.social-media a {
+  padding: 10px;
+}
+.social-media img {
+  height: 100%;
+  max-width: 33%;
+}
+.skeletonwitch-logo {
+  max-width: 100%;
+}
 
-    .col-1 .container { display:inline; }
-    .col-2 .container { display:none; }
+.album::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.album:last-child {
+  padding-bottom: 25px;
+}
 
+/* Homepage Signup Form */
+#feedbackForm {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#feedbackForm div label {
+  padding-right: 10px;
+}
+.feedbackForm-col1 {
+  display: none;
+}
+.feedbackForm-col2 {
+  display: block;
+}
+.help-block {
+  display: none;
+  color: #d0070d;
+}
+.form-group input {
+  padding: 3px;
+  margin-top: 5px;
+}
+button {
+  padding: 5px;
+}
+#feedbackSubmit {
+  margin-top: 10px;
+}
 
-    /* Nav Bar */
-    nav ul, nav ul ul { display:none; width:100%; }
-    nav ul li, nav ul ul li { display:block; float:none; border-top:1px solid #111; }
-    nav ul li:nth-child(4) { display:block; float:none; }
+/* Email Latest News Form */
+.form-group p {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.col-1 .container {
+  display: none;
+}
+.col-2 .container {
+  display: inline;
+}
+
+/* Slideshow */
+.slideshow {
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+.slides {
+  width: 100%;
+}
+
+.slideshow {
+  position: relative;
+  display: inline-block;
+}
+.arrows {
+  position: absolute;
+  width: 100%;
+  height: 55%;
+  left: 0;
+  bottom: 0;
+  font-weight: bold;
+}
+.arrows div {
+  padding: 3px 9px;
+  background: #000000;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.left-arrow {
+  float: left;
+  margin-left: 10px;
+}
+.right-arrow {
+  float: right;
+  margin-right: 10px;
+}
+
+/* Gallery */
+.gallery {
+  text-align: center;
+}
+.gallery img {
+  max-width: 24%;
+  height: auto;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.gallery img:hover {
+  opacity: 0.7;
+}
+
+/* Modal (popup) */
+#modal {
+  display: none;
+  position: fixed;
+  padding: 100px 0;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+#modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  cursor: pointer;
+  max-height: 80vh;
+}
+
+/* Email Contact Form */
+#email-form {
+  padding-top: 50px;
+}
+.container .alert {
+  font-size: 85%;
+}
+
+/* Breakpoints */
+@media only screen and (max-width: 1025px) {
+  /* Landscape Tablet and below */
+  body {
+    background-image: none;
+    background-color: #111;
+  }
+  .skeletonwitch-logo {
+    display: block;
+  }
+  #push-top {
+    margin-top: 0;
+  }
+  #main {
+    width: 100%;
+    margin: 0;
+  }
+  nav ul {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  /* Portrait Tablet + Mobile */
+  #nav-header {
+    display: block;
+  }
+
+  .col-1 {
+    width: 90%;
+  }
+  .col-2 {
+    width: 10%;
+    padding: 0;
+  }
+  .social-media {
+    white-space: normal;
+    border-bottom: none;
+  }
+  .social-media img {
+    max-width: 100%;
+  }
+  .social-media a img {
+    padding-bottom: 10px;
+  }
+  .twitter-feed {
+    display: none;
+  }
+
+  .feedbackForm-col1 {
+    display: block;
+  }
+  .feedbackForm-col2 {
+    display: none;
+  }
+
+  .col-1 .container {
+    display: inline;
+  }
+  .col-2 .container {
+    display: none;
+  }
+
+  /* Nav Bar */
+  nav ul,
+  nav ul ul {
+    display: none;
+    width: 100%;
+  }
+  nav ul li,
+  nav ul ul li {
+    display: block;
+    float: none;
+    border-top: 1px solid #111;
+  }
+  nav ul li:nth-child(4) {
+    display: block;
+    float: none;
+  }
 }

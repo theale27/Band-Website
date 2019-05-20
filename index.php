@@ -38,7 +38,7 @@
         mysqli_close($conn); // close $conn as good practice (security)
     }
     ?>
-    <img class="skeletonwitch-logo" src="/assesstwo/img/Skeletonwitch_Logo.png" alt="Skeletonwitch Logo">
+    <img class="skeletonwitch-logo" src="/img/Skeletonwitch_Logo.png" alt="Skeletonwitch Logo">
     <div id="push-top"></div>
     <section id="main">
         <div class="col-1">
@@ -82,9 +82,9 @@
         </div>
         <div class="col-2">
             <div class="social-media">
-                <a href="http://www.facebook.com/skeletonwitch"><img src="/assesstwo/img/Logo-Red_Facebook.png" alt="Skeletonwitch Facebook"></a>
-                <a href="http://www.instagram.com/skeletonwitch"><img src="/assesstwo/img/Logo-Red_Instagram.png" alt="Skeletonwitch Facebook"></a>
-                <a href="http://www.twitter.com/Skeletonwitch"><img src="/assesstwo/img/Logo-Red_Twitter.png" alt="Skeletonwitch Facebook"></a>
+                <a href="http://www.facebook.com/skeletonwitch"><img src="/img/Logo-Red_Facebook.png" alt="Skeletonwitch Facebook"></a>
+                <a href="http://www.instagram.com/skeletonwitch"><img src="/img/Logo-Red_Instagram.png" alt="Skeletonwitch Facebook"></a>
+                <a href="http://www.twitter.com/Skeletonwitch"><img src="/img/Logo-Red_Twitter.png" alt="Skeletonwitch Facebook"></a>
             </div><br>
 
             <form role="form" id="feedbackForm" class="feedbackForm-col2" method="post">

@@ -13,12 +13,12 @@
 
 <body>
     <?php include ('header.php'); ?>
-    <img class="skeletonwitch-logo" src="/assesstwo/img/Skeletonwitch_Logo.png" alt="Skeletonwitch Logo">
+    <img class="skeletonwitch-logo" src="/img/Skeletonwitch_Logo.png" alt="Skeletonwitch Logo">
     <div id="push-top"></div>
     <section id="main">
         <div class="album">
             <div class="col-1">
-                <img src="/assesstwo/img/Album_AtOneWithTheShadows_(2004).jpg" alt="Album - At One with the Shadows">
+                <img src="/img/Album_AtOneWithTheShadows_(2004).jpg" alt="Album - At One with the Shadows">
             </div>
             <div class="col-2">
                 <p class="track-list">
@@ -39,7 +39,7 @@
         </div>
         <div class="album">
             <div class="col-1">
-                <img src="/assesstwo/img/Album_BeyondThePermafrost_(2007).jpg" alt="Album - Beyond the Permafrost">
+                <img src="/img/Album_BeyondThePermafrost_(2007).jpg" alt="Album - Beyond the Permafrost">
             </div>
             <div class="col-2">
                 <p class="track-list">
@@ -64,7 +64,7 @@
         </div>
         <div class="album">
             <div class="col-1">
-                <img src="/assesstwo/img/Album_BreathingTheFire_(2009).jpg" alt="Album - Breathing the Fire">
+                <img src="/img/Album_BreathingTheFire_(2009).jpg" alt="Album - Breathing the Fire">
             </div>
             <div class="col-2">
                 <p class="track-list">
@@ -89,7 +89,7 @@
         </div>
         <div class="album">
             <div class="col-1">
-                <img src="/assesstwo/img/Album_ForeverAbomination_(2011).jpg" alt="Album - Forever Abomination">
+                <img src="/img/Album_ForeverAbomination_(2011).jpg" alt="Album - Forever Abomination">
             </div>
             <div class="col-2">
                 <p class="track-list">
@@ -113,7 +113,7 @@
         </div>
         <div class="album">
             <div class="col-1">
-                <img src="/assesstwo/img/Album_SerpentsUnleashed_(2013).jpg" alt="Album - Serpents Unleashed">
+                <img src="/img/Album_SerpentsUnleashed_(2013).jpg" alt="Album - Serpents Unleashed">
             </div>
             <div class="col-2">
                 <p class="track-list">
