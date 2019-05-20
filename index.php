@@ -13,9 +13,28 @@
 <body>
     <?php
     include ('header.php');
-    include ('config.php'); // load the config file
-    include ('connect.php'); // load the connection instructions
 
+    // config
+    // define variables for database connection
+    $db_server = 'localhost';
+    $db_name = 'thealeha_th';
+    $db_user = 'thealeha_th';
+    $db_pass = '$DzSW^fS@pay';
+    // the page will continue with the next instruction in the parent file (header.php) now...
+
+
+    // Create connection
+    // here we are calling on (retrieving) the variables from config.php to create the database connection object.
+    $conn = new mysqli($db_server, $db_user, $db_pass, $db_name);
+
+    // Check connection
+    if ($conn->connect_error) {
+        // here the if statement checks if there is an error, and if so, kill all PHP scripts: run the die() function
+        die("Connection failed: " . $conn->connect_error);
+    }
+    // the page will continue with the next instruction in the parent file (header.php) now...
+
+    
     $message = false; // define this variable "false" as default
     $website_title = "Skeletonwitch"; // define this variable so we can use it later!
 
