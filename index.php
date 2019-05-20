@@ -13,8 +13,8 @@
 <body>
     <?php
     include ('header.php');
-    include('config.php'); // load the config file
-    include('connect.php'); // load the connection instructions
+    include ('config.php'); // load the config file
+    include ('connect.php'); // load the connection instructions
 
     $message = false; // define this variable "false" as default
     $website_title = "Skeletonwitch"; // define this variable so we can use it later!
