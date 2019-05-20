@@ -1,4 +1,3 @@
-<?php
 
 // define variables for database connection
 
